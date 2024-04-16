@@ -484,7 +484,7 @@ a{
         display: none;
     }
     .lectures iframe{
-        width: 220px;
+        width: fit-content;
         height: 220px;
     }
 }
