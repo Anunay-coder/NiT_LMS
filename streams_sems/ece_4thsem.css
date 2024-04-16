@@ -483,4 +483,8 @@ a{
     .jis-logo{
         display: none;
     }
+    .lectures iframe{
+        width: 220px;
+        height: 220px;
+    }
 }
