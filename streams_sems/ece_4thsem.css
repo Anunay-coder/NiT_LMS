@@ -483,6 +483,9 @@ a{
     .jis-logo{
         display: none;
     }
+    #videos iframe{
+        width: 95%;
+    }
     .lectures iframe{
         width: fit-content;
         height: 220px;
