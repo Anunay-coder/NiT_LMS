@@ -453,7 +453,10 @@ a{
 
 @media(max-width: 790px){
     .bar {
-        height: 40px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(295px, 0.13fr));
+        gap: 10px;
+        height: fit-content;  
     }
     #topic_content{
         flex-direction: column;
@@ -468,6 +471,9 @@ a{
 }
 
 @media(max-width:590px){
+    .inputbox {
+        font-size: 11px;
+    }
     .header{
         flex-direction: column;
     }
