@@ -33,7 +33,7 @@ function videoSearch(key, search, maxResults) {
                 data.items.forEach(function (item) {
                     video = `
                         <iframe id="player" type="text/html" width="420" height="340"
-                         src="http://www.youtube.com/embed/${item.id.videoId}"
+                         src="https://www.youtube.com/embed/${item.id.videoId}"
                          frameborder="0" allowfullscreen></iframe>
                      `;
 
