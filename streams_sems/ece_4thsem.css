@@ -10,7 +10,17 @@
     display: flex;
     justify-content: space-evenly;
 }
-
+#home_btn{
+    padding: 1px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.879);
+    color: rgb(17, 1, 121);
+    margin-bottom: 4px;
+    max-width: 55px;
+}
+#home_btn:hover{
+    background-color: #b9bfaf;
+}
 .bar p, .bar a{
     display: inline-block;
     color: white;
