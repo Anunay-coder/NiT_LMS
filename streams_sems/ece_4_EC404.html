@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="ece_4thsem.css" type="text/css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="index_favicon.png">
+    <title>NIT-LMS-ECE-SEM-IV</title>
+</head>
+
+<body id="EC404">
+    <div class="bar">
+        <a id="home_btn" href="https://soumik-github-4223.github.io/NiT_LMS/">Home</a>
+        <p>Developer Contact: Soumik Saha</p>
+        <p>Phone No.: 8420944417</p>
+        <p>Mail id: <a href="mailto:soumiksaha9444@gmail.com">soumiksaha9444@gmail.com</a></p>
+    </div>
+    <header class="header">
+        <div class="nit-logo"><a target="_blank" href="https://www.nit.ac.in/"><img src="nit_logo.png"
+                    alt="NiT logo"></a></div>
+        <div class="head-text">
+            <p id="welcome">ECE-SEMESTER-IV</p>
+        </div>
+        <div class="jis-logo"><a target="_blank" href="https://www.jisgroup.org/"><img src="jis_logo.jpg"
+                    alt="JIS logo"></a> </div>
+    </header>
+
+    <div class="navbar_subj">
+        <div class="menuToggle1">
+            <p class="indiactor1"> :Subjects</p>
+        </div>
+        <div class="nav_subject">
+            <a data-active="EC401" href="ece_4_EC401.html">EM Theory & Antenna</a>
+            <a data-active="EC402" href="ece_4_EC402.html">Analog Circuits</a>
+            <a data-active="EC403" href="ece_4_EC403.html">Digital Electronics</a>
+            <a data-active="EC404" href="ece_4_EC404.html">Analog & Digital Communication</a>
+            <a data-active="EC405" href="ece_4_EC405.html">Digital Signal Processing</a>
+            <a data-active="HSMC402" href="ece_4_HSMC402.html">Gender Culture and Development</a>
+        </div>
+    </div>
+
+    <div class="nav_topics">
+        <div class="menuToggle2">
+            <p class="indiactor2">Contents:</p>
+        </div>
+        <div class="nav_content">
+            <a id="topics" data-active="EC404" onclick="highlight('topics')">Syllabus</a>
+            <a id="pdfs" onclick="highlight('pdfs')">Study Materials</a>
+            <a id="videolectures" onclick="highlight('videolectures')">Video lectures</a>
+            <a id="pyq" onclick="highlight('pyq')">Previous year questions</a>
+            <a id="doubtsolve" onclick="highlight('doubtsolve')">Doubt solve</a>
+        </div>
+    </div>
+
+    <div class="nav2">
+        <div id="topic_content">
+            <div class="syllabus">
+                <p class="modules ">Module 1:</p>
+                <p class="module" id="c1" onclick="run('c1')">Introduction to Analog Communication</p><br />
+                <p class="content" id="c2" onclick="run('c2')">Elements of communication system - Transmitters,
+                    Transmission channels & receivers</p>,
+                <p class="content" id="c3" onclick="run('c3')">Concept of modulation, its
+                    needs</p>,
+                <p class="content" id="c4" onclick="run('c4')">Frequency domain representation of signals</p>,
+                <p class="content" id="c5" onclick="run('c5')">Principles of Amplitude Modulation and
+                    Demodulation</p>,
+                <p class="content" id="c6" onclick="run('c6')"> Modulation index</p>,
+                <p class="content" id="c7" onclick="run('c7')">Power content and bandwidth requirement Systems</p>,
+                <p class="content" id="c8" onclick="run('c8')">DSB(Balanced Modulator for
+                    DSB-SC, Phase Shift method for SSB-SC), SSB and VSB modulations</p>,
+                <p class="content" id="c9" onclick="run('c9')">Angle Modulation(reactance modulator) </p>,
+                <p class="content" id="c10" onclick="run('c10')">Demodulation
+                    Systems(PLL or frequency discriminator)</p>,
+                <p class="content" id="c11" onclick="run('c11')"> Representation of FM and PM signals
+                </p>,
+                <p class="content" id="c12" onclick="run('c12')">Spectral characteristics of angle
+                    modulated signals</p><br /><br />
+                <p class="modules ">Module 2:</p>
+                <p class="module" id="c52" onclick="run('c52')">Random Processes</p><br />
+                <!--Because of wrong id numbering this id seems odd-->
+                <p class="content" id="c13" onclick="run('c13')">Review of probability and random process</p>,
+                <p class="content" id="c14" onclick="run('c14')">Gaussian and white noise characteristics</p>,
+                <p class="content" id="c15" onclick="run('c15')">Rayleigh's energy theorem</p>,
+                <p class="content" id="c16" onclick="run('c16')">Parseval's theorem</p>,
+                <p class="content" id="c17" onclick="run('c17')"> Fourier transform pair Power spectral density</p>,
+                <p class="content" id="c18" onclick="run('c18')">Autocorrelation likelihood functions</p>,
+                <p class="content" id="c19" onclick="run('c19')">Noise in
+                    amplitude modulation systems</p>,
+                <p class="content" id="c20" onclick="run('c20')">Pre-emphasis</p>,
+                <p class="content" id="c21" onclick="run('c21')">De-emphasis</p>
+
+                <br /><br />
+
+                <p class="modules ">Module 3:</p>
+                <p class="module" id="c30" onclick="run('c30')">Pulse modulation</p><br />
+                <p class="content" id="c31" onclick="run('c31')">Basic block diagram of Digital Communication system</p>
+                ,
+                <p class="content" id="c32" onclick="run('c32')">advantages of digital communication system over analog
+                    communication system</p>,
+                <p class="content" id="c33" onclick="run('c33')">Sampling theorem</p>,
+                <p class="content" id="c34" onclick="run('c34')">Quantization</p>,
+                <p class="content" id="c35" onclick="run('c35')">quantization error Pulse modulation techniques PAM,
+                    PWM,
+                    PPM</p>,
+                <p class="content" id="c36" onclick="run('c36')">Pulse code modulation (PCM)</p>,
+                <p class="content" id="c37" onclick="run('c37')">Line coding</p>,
+                <p class="content" id="c38" onclick="run('c38')">Regenerative repeater</p>,
+                <p class="content" id="c39" onclick="run('c39')">differential pulse code modulation</p>,
+                <p class="content" id="c40" onclick="run('c40')">Delta
+                    modulation</p>,
+                <p class="content" id="c41" onclick="run('c41')">Noise analysis</p>,
+                <p class="content" id="c42" onclick="run('c42')">PCM-TDM
+                </p>,
+                <p class="content" id="c43" onclick="run('c43')">Time Division multiplexing
+                </p>
+
+            </div>
+
+            <div class="youtube">
+                <div class="ytheader1">
+                    <div class="ytheader">
+                        <img src="Youtube icon.png" alt="youtube icon">
+                        <h1>Youtube Mini</h1>
+                    </div>
+
+                    <br>
+                    <form id="form">
+                        <div class="form-group">
+                            <input type="text" maxlength="140" class="inputbox" id="search" />
+                            <input type="submit" class="btn" value="search">
+                        </div>
+                    </form>
+                </div>
+
+
+                <div id="videos">
+
+                    <p class="searchGuide">Click on any topic or write in search box to search</p>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div id="pdf_section">
+            <div class="pdfs">
+                <div class="outerpdf_card">
+                    <div class="pdf_card">
+                        <a target="_blank"
+                            href="https://drive.google.com/file/d/11NfhSaHDIf6MWQ4A2IUaW3mCtlkWK0VL/view?usp=drive_link">
+                            <div class="pdf_name_logo">
+                                <img class="pdf_logo" src="pdf_logo.png" alt="pdf_logo">
+                                <p class="pdf_name">Analog communication</p>
+                            </div>
+                            <img class="thumbnail" src="EC404/Analog.png" alt="communication notes">
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="lecture_section">
+            <div class="lectures">
+
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/videoseries?si=Nyr5-A-wufcaPwFZ&amp;list=PLPeKeikHHWGfaHVBYrqxRk2Wl8uYSjRWM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div id="pyq_section">
+            <div class="pyqs">
+                <div class="outerpdf_card">
+                    <div class="pdf_card">
+                        <a target="_blank"
+                            href="https://drive.google.com/file/d/1bzhVmaKOM7vuhdinvpvgmVBt864EGcla/view?usp=drive_link">
+                            <div class="pdf_name_logo">
+                                <img class="pdf_logo" src="pdf_logo.png" alt="pdf_logo">
+                                <p class="pdf_name">Year-2023</p>
+                            </div>
+                            <img class="thumbnail" src="EC401_thumbnails/Year 2023.png" alt="PYQs">
+                        </a>
+                    </div>
+                    <div class="pdf_card">
+                        <a target="_blank"
+                            href="https://drive.google.com/file/d/13TireX8OH1L6CdjZnPKCW2Xnb1fHBoSK/view?usp=drive_link">
+                            <div class="pdf_name_logo">
+                                <img class="pdf_logo" src="pdf_logo.png" alt="pdf_logo">
+                                <p class="pdf_name">Year-2022</p>
+                            </div>
+                            <img class="thumbnail" src="EC401_thumbnails/Year 2022.png" alt="PYQs">
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div id="doubt_section">
+            <div class="doubt">
+                <a target="_blank"
+                    href="https://docs.google.com/spreadsheets/d/1XJh-FTDnaiRkcI0nEiWoPWHC58sUJ7MYzICb78qYff4/edit?usp=sharing"><img
+                        src="Google_sheet_logo_doubt.jpg"></a>
+            </div>
+        </div>
+
+    </div>
+    <script src="activeLink_resp.js"></script>
+    <script src="clicktosearch.js"></script>
+    <script src="changeDiv.js"></script>
+</body>
+
+</html>

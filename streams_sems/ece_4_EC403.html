@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="ece_4thsem.css" type="text/css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="index_favicon.png">
+    <title>NIT-LMS-ECE-SEM-IV</title>
+</head>
+
+<body id="EC403">
+    <div class="bar">
+        <a id="home_btn" href="https://soumik-github-4223.github.io/NiT_LMS/">Home</a>
+        <p>Developer Contact: Soumik Saha</p>
+        <p>Phone No.: 8420944417</p>
+        <p>Mail id: <a href="mailto:soumiksaha9444@gmail.com">soumiksaha9444@gmail.com</a></p>
+    </div>
+    <header class="header">
+        <div class="nit-logo"><a target="_blank" href="https://www.nit.ac.in/"><img src="nit_logo.png"
+                    alt="NiT logo"></a></div>
+        <div class="head-text">
+            <p id="welcome">ECE-SEMESTER-IV</p>
+        </div>
+        <div class="jis-logo"><a target="_blank" href="https://www.jisgroup.org/"><img src="jis_logo.jpg"
+                    alt="JIS logo"></a> </div>
+    </header>
+
+    <div class="navbar_subj">
+        <div class="menuToggle1">
+            <p class="indiactor1"> :Subjects</p>
+        </div>
+        <div class="nav_subject">
+            <a data-active="EC401" href="ece_4_EC401.html">EM Theory & Antenna</a>
+            <a data-active="EC402" href="ece_4_EC402.html">Analog Circuits</a>
+            <a data-active="EC403" href="ece_4_EC403.html">Digital Electronics</a>
+            <a data-active="EC404" href="ece_4_EC404.html">Analog & Digital Communication</a>
+            <a data-active="EC405" href="ece_4_EC405.html">Digital Signal Processing</a>
+            <a data-active="HSMC402" href="ece_4_HSMC402.html">Gender Culture and Development</a>
+        </div>
+    </div>
+
+    <div class="nav_topics">
+        <div class="menuToggle2">
+            <p class="indiactor2">Contents:</p>
+        </div>
+        <div class="nav_content">
+            <a id="topics" data-active="EC403" onclick="highlight('topics')">Syllabus</a>
+            <a id="pdfs" onclick="highlight('pdfs')">Study Materials</a>
+            <a id="videolectures" onclick="highlight('videolectures')">Video lectures</a>
+            <a id="pyq" onclick="highlight('pyq')">Previous year questions</a>
+            <a id="doubtsolve" onclick="highlight('doubtsolve')">Doubt solve</a>
+        </div>
+    </div>
+
+    <div class="nav2">
+        <div id="topic_content">
+            <div class="syllabus">
+                <p class="modules ">Module 1:</p>
+                <p class="module" id="c1" onclick="run('c1')">Binary, Octal and Hexadecimal number system representation
+                    and their conversions</p><br />
+                <p class="content" id="c2" onclick="run('c2')">BCD</p>,
+                <p class="content" id="c3" onclick="run('c3')">ASCII, EBDIC, Gray codes
+                    and their conversions</p>,
+                <p class="content" id="c4" onclick="run('c4')">Signed binary number representation with 1's, 2's, 9's
+                    and 10's complement methods</p>,
+                <p class="content" id="c5" onclick="run('c5')">Binary
+                    arithmetic. Boolean algebra</p>,
+                <p class="content" id="c6" onclick="run('c6')">Various Logic gates- their truth tables and circuits</p>,
+                <p class="content" id="c7" onclick="run('c7')"> Implementation of various logic Gates
+                    using Universal Logic Gate</p>,
+                <p class="content" id="c8" onclick="run('c8')">Representation in SOP and POS forms</p>,
+                <p class="content" id="c9" onclick="run('c9')">Minimization of logic expressions by algebraic
+                    method</p>,
+                <p class="content" id="c10" onclick="run('c10')">K-map method</p>,
+                <p class="content" id="c11" onclick="run('c11')">Quine-McCluskey minimization technique (Tabular Method)
+                </p>,
+
+
+                <br /><br />
+                <p class="modules ">Module 2:</p>
+                <p class="module" id="c52" onclick="run('c52')">Combinational circuits</p><br />
+                <!--Because of wrong id numbering this id seems odd-->
+                <p class="content" id="c13" onclick="run('c13')">Half Adder, Full Adder, Serial & Parallel Adder</p>,
+                <p class="content" id="c14" onclick="run('c14')">Carry Look Ahead Adder</p>,
+                <p class="content" id="c15" onclick="run('c15')">BCD Adder</p>,
+                <p class="content" id="c16" onclick="run('c16')">Half
+                    Subtractor, Full Subtractor circuits</p>,
+                <p class="content" id="c17" onclick="run('c17')">Adder-Subtractor Circuit</p>,
+                <p class="content" id="c18" onclick="run('c18')">Encoder
+                </p>,
+                <p class="content" id="c19" onclick="run('c19')">priority encoder</p>,
+                <p class="content" id="c20" onclick="run('c20')">Decoder</p>,
+
+                <br /><br />
+                <p class="modules ">Module 3:</p>
+                <p class="module" id="c30" onclick="run('c30')">Sequential Circuits</p><br />
+                <p class="content" id="c31" onclick="run('c31')"> Tuned amplifier</p>,
+                <p class="content" id="c32" onclick="run('c32')">Operating principle of JFET</p>,
+                <p class="content" id="c33" onclick="run('c33')">drain and transfer characteristics of JFET (n- channel
+                    and
+                    p-channel)</p>,
+                <p class="content" id="c34" onclick="run('c34')">E-MOSFET (n-channel and p-channel)</p>,
+                <p class="content" id="c35" onclick="run('c35')">D-MOSFET (n-channel and
+                    p- channel)</p>,
+                <p class="content" id="c36" onclick="run('c36')">Equivalent circuit of JFET and MOSFET</p>,
+                <p class="content" id="c37" onclick="run('c37')">Common-source</p>,
+                <p class="content" id="c38" onclick="run('c38')">Common gate amplifiers</p>
+
+                <br /><br />
+                <p class="modules ">Module 4:</p>
+                <p class="module" id="c400" onclick="run('c400')">Sequential Circuits</p><br />
+                <p class="content" id="c401" onclick="run('c401')">latch & Flip Flops-S-R</p>,
+                <p class="content" id="c402" onclick="run('c402')"> Conversion of Flip Flops</p>,
+                <p class="content" id="c403" onclick="run('c403')">Various types of Shift Registers SISO, PISO, SIPO,
+                    PIPO</p>,
+                <p class="content" id="c404" onclick="run('c404')">Bidirectional & Universal Shift</p>,
+                <p class="content" id="c405" onclick="run('c405')">Modulus Counters Synchronous</p>,
+                <p class="content" id="c406" onclick="run('c406')">Asynchronous, Irregular,
+                    Self-Correcting Ring & Johnson Counter</p>,
+                <p class="content" id="c407" onclick="run('c407')">state
+                    transition diagrams and state transition tables</p>
+
+            </div>
+
+            <div class="youtube">
+                <div class="ytheader1">
+                    <div class="ytheader">
+                        <img src="Youtube icon.png" alt="youtube icon">
+                        <h1>Youtube Mini</h1>
+                    </div>
+
+                    <br>
+                    <form id="form">
+                        <div class="form-group">
+                            <input type="text" maxlength="140" class="inputbox" id="search" />
+                            <input type="submit" class="btn" value="search">
+                        </div>
+                    </form>
+                </div>
+
+
+                <div id="videos">
+
+                    <p class="searchGuide">Click on any topic or write in search box to search</p>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div id="pdf_section">
+            <div class="pdfs">
+                <div class="outerpdf_card">
+                    Sorry no pdf uploaded.
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="lecture_section">
+            <div class="lectures">
+
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/videoseries?si=yNxq1hkdAwIBsYIT&amp;list=PLbRMhDVUMngePP5JcezxImF-FzOC9wstz"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div id="pyq_section">
+            <div class="pyqs">
+                <div class="outerpdf_card">
+                    <div class="pdf_card">
+                        <a target="_blank"
+                            href="https://drive.google.com/file/d/11piZU5Xi4seWl-WzAAW2CXJQ2_hyYueR/view?usp=drive_link">
+                            <div class="pdf_name_logo">
+                                <img class="pdf_logo" src="pdf_logo.png" alt="pdf_logo">
+                                <p class="pdf_name">Year-2023</p>
+                            </div>
+                            <img class="thumbnail" src="EC401_thumbnails/Year 2023.png" alt="PYQs">
+                        </a>
+                    </div>
+                    <div class="pdf_card">
+                        <a target="_blank"
+                            href="https://drive.google.com/file/d/1tpM-hO8ghxQ8Cunv8rWPgbiyVWKFCbLe/view?usp=drive_link">
+                            <div class="pdf_name_logo">
+                                <img class="pdf_logo" src="pdf_logo.png" alt="pdf_logo">
+                                <p class="pdf_name">Year-2022</p>
+                            </div>
+                            <img class="thumbnail" src="EC401_thumbnails/Year 2022.png" alt="PYQs">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="doubt_section">
+            <div class="doubt">
+                <a target="_blank"
+                    href="https://docs.google.com/spreadsheets/d/1XJh-FTDnaiRkcI0nEiWoPWHC58sUJ7MYzICb78qYff4/edit?usp=sharing"><img
+                        src="Google_sheet_logo_doubt.jpg"></a>
+            </div>
+        </div>
+
+    </div>
+    <script src="activeLink_resp.js"></script>
+    <script src="clicktosearch.js"></script>
+    <script src="changeDiv.js"></script>
+</body>
+
+</html>

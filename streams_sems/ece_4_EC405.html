@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="ece_4thsem.css" type="text/css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="index_favicon.png">
+    <title>NIT-LMS-ECE-SEM-IV</title>
+</head>
+
+<body id="EC405">
+    <div class="bar">
+        <a id="home_btn" href="https://soumik-github-4223.github.io/NiT_LMS/">Home</a>
+        <p>Developer Contact: Soumik Saha</p>
+        <p>Phone No.: 8420944417</p>
+        <p>Mail id: <a href="mailto:soumiksaha9444@gmail.com">soumiksaha9444@gmail.com</a></p>
+    </div>
+    <header class="header">
+        <div class="nit-logo"><a target="_blank" href="https://www.nit.ac.in/"><img src="nit_logo.png"
+                    alt="NiT logo"></a></div>
+        <div class="head-text">
+            <p id="welcome">ECE-SEMESTER-IV</p>
+        </div>
+        <div class="jis-logo"><a target="_blank" href="https://www.jisgroup.org/"><img src="jis_logo.jpg"
+                    alt="JIS logo"></a> </div>
+    </header>
+
+    <div class="navbar_subj">
+        <div class="menuToggle1">
+            <p class="indiactor1"> :Subjects</p>
+        </div>
+        <div class="nav_subject">
+            <a data-active="EC401" href="ece_4_EC401.html">EM Theory & Antenna</a>
+            <a data-active="EC402" href="ece_4_EC402.html">Analog Circuits</a>
+            <a data-active="EC403" href="ece_4_EC403.html">Digital Electronics</a>
+            <a data-active="EC404" href="ece_4_EC404.html">Analog & Digital Communication</a>
+            <a data-active="EC405" href="ece_4_EC405.html">Digital Signal Processing</a>
+            <a data-active="HSMC402" href="ece_4_HSMC402.html">Gender Culture and Development</a>
+        </div>
+    </div>
+
+    <div class="nav_topics">
+        <div class="menuToggle2">
+            <p class="indiactor2">Contents:</p>
+        </div>
+        <div class="nav_content">
+            <a id="topics" data-active="EC405" onclick="highlight('topics')">Syllabus</a>
+            <a id="pdfs" onclick="highlight('pdfs')">Study Materials</a>
+            <a id="videolectures" onclick="highlight('videolectures')">Video lectures</a>
+            <a id="pyq" onclick="highlight('pyq')">Previous year questions</a>
+            <a id="doubtsolve" onclick="highlight('doubtsolve')">Doubt solve</a>
+        </div>
+    </div>
+
+    <div class="nav2">
+        <div id="topic_content">
+            <div class="syllabus">
+                <p class="modules ">Module 1:</p>
+                <p class="module" id="c1" onclick="run('c1')">Discrete Fourier Transform and Fast Fourier Transform</p>
+                <br />
+                <p class="content" id="c2" onclick="run('c2')">Definition of DFT and IDFT</p>,
+                <p class="content" id="c3" onclick="run('c3')">Twiddle factors and their properties</p>,
+                <p class="content" id="c4" onclick="run('c4')">multiplication of DFTs</p>,
+                <p class="content" id="c5" onclick="run('c5')">circular convolution,
+                    computation of circular convolution by graphical</p>,
+                <p class="content" id="c6" onclick="run('c6')"> DFT/IDFT and matrix methods</p>,
+                <p class="content" id="c7" onclick="run('c7')">filtering of long data sequences using
+                    Overlap-Save and Overlap-Add methods</p>,
+                <p class="content" id="c8" onclick="run('c8')">Parseval's Identity</p>,
+                <p class="content" id="c9" onclick="run('c9')">Difference between DFT and FFT</p>,
+                <p class="content" id="c10" onclick="run('c10')">Radix-2 algorithm</p>,
+                <p class="content" id="c11" onclick="run('c11')">Decimation-In-Time, Decimation-In-Frequency algorithms
+                </p>,
+                <p class="content" id="c12" onclick="run('c12')">Bit reversal</p><br /><br />
+                <p class="modules ">Module 2:</p>
+                <p class="module" id="c52" onclick="run('c52')">Filter Design</p><br />
+                <!--Because of wrong id numbering this id seems odd-->
+                <p class="content" id="c13" onclick="run('c13')">Basic concepts of IIR and FIR filters</p>,
+                <p class="content" id="c14" onclick="run('c14')">Moving average system</p>,
+                <p class="content" id="c15" onclick="run('c15')">Autoregressive system</p>,
+                <p class="content" id="c16" onclick="run('c16')">Pole- zero system</p>,
+                <p class="content" id="c17" onclick="run('c17')">Non- recursive
+                    and recursive structures</p>,
+                <p class="content" id="c18" onclick="run('c18')">Low pass FIR digital filters</p>,
+                <p class="content" id="c19" onclick="run('c19')">High pass FIR digital filters</p>,
+                <p class="content" id="c20" onclick="run('c20')">Band pass FIR digital filters</p>,
+                <p class="content" id="c21" onclick="run('c21')">Notch
+                    FIR digital filters</p>,
+                <p class="content" id="c22" onclick="run('c22')">Realization of Filters using Direct form</p>,
+                <p class="content" id="c23" onclick="run('c23')">Cascade &
+                    Parallel Form</p>,
+                <p class="content" id="c25" onclick="run('c25')">Factors influencing choice of structure</p>,
+                <p class="content" id="c26" onclick="run('c26')">Design of IIR Filter using impulse invariant and
+                    bilinear
+                    transform</p>,
+                <p class="content" id="c27" onclick="run('c27')">Design of analog Butterworth Filter</p>,
+                <p class="content" id="c28" onclick="run('c28')">Design of Analog Low pass Chebyshev filters</p>,
+                <p class="content" id="c29" onclick="run('c29')">Comparison between Butterworth Filter and
+                    Chebyshev filters</p><br /><br />
+                <p class="modules ">Module 3:</p>
+                <p class="module" id="c30" onclick="run('c30')">Finite word Length Effects in Digital Filters</p><br />
+                <p class="content" id="c31" onclick="run('c31')">Input Quantization error</p>,
+                <p class="content" id="c32" onclick="run('c32')">Product Quantization error</p>,
+                <p class="content" id="c33" onclick="run('c33')">Coefficient, Quantization error</p>,
+                <p class="content" id="c34" onclick="run('c34')">Zero- input Limit cycle
+                    Oscillations</p>,
+                <p class="content" id="c35" onclick="run('c35')">Dead band</p>,
+                <p class="content" id="c36" onclick="run('c36')">limit cycle Oscillations</p>
+
+
+            </div>
+
+            <div class="youtube">
+                <div class="ytheader1">
+                    <div class="ytheader">
+                        <img src="Youtube icon.png" alt="youtube icon">
+                        <h1>Youtube Mini</h1>
+                    </div>
+
+                    <br>
+                    <form id="form">
+                        <div class="form-group">
+                            <input type="text" maxlength="140" class="inputbox" id="search" />
+                            <input type="submit" class="btn" value="search">
+                        </div>
+                    </form>
+                </div>
+
+
+                <div id="videos">
+
+                    <p class="searchGuide">Click on any topic or write in search box to search</p>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div id="pdf_section">
+            <div class="pdfs">
+                <div class="outerpdf_card">
+                    No pdf uploaded.
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="lecture_section">
+            <div class="lectures">
+
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/videoseries?si=vzXY85dSs9TlD0pp&amp;list=PLOzRYVm0a65cqD-w8nzPQKzcYM15SwTSH"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/videoseries?si=h_vKDeHVsFLHdCuC&amp;list=PL285BE2DDBCB6839F"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div id="pyq_section">
+            <div class="pyqs">
+                <div class="outerpdf_card">
+                    <div class="pdf_card">
+                        <a target="_blank"
+                            href="https://drive.google.com/file/d/1zDwuazHAcI2qYbmUxzhfj-DPboQoeCzm/view?usp=drive_link">
+                            <div class="pdf_name_logo">
+                                <img class="pdf_logo" src="pdf_logo.png" alt="pdf_logo">
+                                <p class="pdf_name">Year-2023</p>
+                            </div>
+                            <img class="thumbnail" src="EC401_thumbnails/Year 2023.png" alt="PYQs">
+                        </a>
+                    </div>
+                    <div class="pdf_card">
+                        <a target="_blank"
+                            href="https://drive.google.com/file/d/1dkTRv271dqKQNvzjFyTs6cKrGvzi2r7h/view?usp=drive_link">
+                            <div class="pdf_name_logo">
+                                <img class="pdf_logo" src="pdf_logo.png" alt="pdf_logo">
+                                <p class="pdf_name">Year-2022</p>
+                            </div>
+                            <img class="thumbnail" src="EC401_thumbnails/Year 2022.png" alt="PYQs">
+                        </a>
+                    </div>
+                    <div class="pdf_card">
+                        <a target="_blank"
+                            href="https://drive.google.com/file/d/1t-XzZ0aU-QaIHYEV9Ga-R-_ku2ldUlW9/view?usp=drive_link">
+                            <div class="pdf_name_logo">
+                                <img class="pdf_logo" src="pdf_logo.png" alt="pdf_logo">
+                                <p class="pdf_name">Year-2021</p>
+                            </div>
+                            <img class="thumbnail" src="EC401_thumbnails/Year 2021.png" alt="PYQs">
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div id="doubt_section">
+            <div class="doubt">
+                <a target="_blank"
+                    href="https://docs.google.com/spreadsheets/d/1XJh-FTDnaiRkcI0nEiWoPWHC58sUJ7MYzICb78qYff4/edit?usp=sharing"><img
+                        src="Google_sheet_logo_doubt.jpg"></a>
+            </div>
+        </div>
+
+    </div>
+    <script src="activeLink_resp.js"></script>
+    <script src="clicktosearch.js"></script>
+    <script src="changeDiv.js"></script>
+</body>
+
+</html>
